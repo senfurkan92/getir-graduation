@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const customLog = require('../helpers/custom-log')
 const logPath = path.join(__dirname, '../', 'log', 'db-connect.log')
 
+// mongodb connecting and logging
 mongoose.connect(process.env.CSTR, (err) => {
   if (err) {
     console.log(`db connection errror: ${err.message}`)

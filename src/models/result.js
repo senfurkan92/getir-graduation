@@ -1,3 +1,5 @@
+// common service result model
+
 class Content {
   constructor(code, message, data) {
     this.code = code

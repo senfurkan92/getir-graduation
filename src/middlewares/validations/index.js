@@ -1,5 +1,6 @@
 const { body } = require('express-validator')
 
+// examining passed parameters to the endpoint via express-validator
 exports.validate = () => {
   return [
     body('startDate')

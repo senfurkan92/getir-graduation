@@ -1,3 +1,5 @@
+// handling and logging occurred errors in a common module
+
 const path = require('path')
 const customLog = require('../../helpers/custom-log')
 const logPath = path.join(__dirname, '../../', 'log', 'error.log')

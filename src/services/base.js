@@ -1,10 +1,12 @@
 const { Response } = require('../models/result')
 
+// base service for the base crud operation(s)
 class BaseService {
   constructor(model) {
     this.model = model
   }
 
+  // getting data and returning as a common result model-Response
   async getMany (filter, orderBy = 'createdAt') {
     let result = null
     try {

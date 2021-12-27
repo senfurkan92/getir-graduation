@@ -1,3 +1,5 @@
+// editing records data to the proper response format
+
 exports.getProperRecords = (records) => {
     return records.map((x) => {
         return {
