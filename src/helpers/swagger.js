@@ -9,7 +9,7 @@ module.exports = {
       },
       servers: [
         {
-          url: "https://node-getir-final.herokuapp.com/",
+          url: "https://getir-graduation.herokuapp.com/",
         },
       ],
     },
